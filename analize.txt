@@ -1,0 +1,28 @@
+table_user{
+	
+	id
+	name
+	email
+	password
+	profile
+}
+
+table_product{
+	id
+	name
+	reqular_price
+	sale_price
+	thumbnail
+	category_id
+	color
+	size
+	description
+	viewer
+	created_at
+	update-at
+}
+
+table_category{
+	id
+	name(kids,men,women..)
+}
